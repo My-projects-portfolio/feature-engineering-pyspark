@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  spark:
+    build: .
+    container_name: spark-local
+    volumes:
+      - ./data:/app/data         # Mount input/output data
+      - ./spark-app:/app/spark-app  # Mount your PySpark script
+    working_dir: /app
