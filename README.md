@@ -150,5 +150,5 @@ python visualize_features.py
 
 ## 📬 Contact
 
-Built with ❤️ by [Your Name]  
+Built with ❤️ by N.Imanian  
 Feel free to connect on [LinkedIn](https://linkedin.com/in/yourprofile) or [email](mailto:you@example.com)
