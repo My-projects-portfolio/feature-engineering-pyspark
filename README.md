@@ -48,7 +48,8 @@ feature-engineering-pyspark/
 ├── data/
 │   └── cvas_data.csv          # Raw input data
 │   └── loan_features/         # Output folder with Parquet files
-└── visualize_features.py      # Python script to visualize output
+├── visualize_features.py      # Python script to visualize output
+└── assets/                    # Folder with visualization images
 ```
 
 ---
@@ -58,7 +59,7 @@ feature-engineering-pyspark/
 ### ✅ Step 1: Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/yourusername/feature-engineering-pyspark.git
+git clone https://github.com/My-projects-portfolio/feature-engineering-pyspark.git
 cd feature-engineering-pyspark
 ```
 
@@ -119,15 +120,22 @@ python visualize_features.py
 ### 📈 Example Plots:
 
 #### 1. Loan-to-Income vs Loan Amount
-![scatter](assets/loan_vs_income.png)
+![Loan vs Income](assets/loan_vs_income.png)
 
 #### 2. Default Rate Distribution
-![histogram](assets/default_rate.png)
+![Default Rate](assets/default_rate.png)
 
 #### 3. Risk Segmentation
-![pie](assets/risk_pie.png)
+![Risk Pie](assets/risk_pie.png)
 
-> You can save these from Matplotlib or add them in `/assets/` folder if pushing to GitHub
+#### 4. Top 10 Customers by Loan Count
+![Top Customers](assets/top_customers.png)
+
+#### 5. Histogram of Average Loan Amount
+![Avg Loan Amount](assets/avg_loan_amount.png)
+
+#### 6. Correlation Heatmap
+![Correlation Heatmap](assets/correlation_heatmap.png)
 
 ---
 
