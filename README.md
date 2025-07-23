@@ -156,6 +156,7 @@ python visualize_features.py
 
 ---
 
-## 📬 Author 
-
+## ✍️ Author
+**Nafiseh** 
+* Machine Learning & Data Science*
 
