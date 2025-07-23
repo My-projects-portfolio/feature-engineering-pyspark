@@ -156,7 +156,6 @@ python visualize_features.py
 
 ---
 
-## 📬 Contact
+## 📬 Author 
 
-Built with ❤️ by N.imanian 
-Feel free to connect on [LinkedIn](https://linkedin.com/in/yourprofile) or [email](nafiseh.imanian@gmail.com)
+
